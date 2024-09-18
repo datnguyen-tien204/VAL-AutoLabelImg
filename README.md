@@ -35,13 +35,11 @@ You can see our video demo as:
 - [Sep 12 2024] We release the first version of VAL-AutoLabelImg, includes YOLOv8.
 # Installation
 
-### With Python Base
+### With Python Base ( Pip)
 Requirements python >= 3.8
 1. Install dependences library
  ```bash
-%cd VAL_ImglabelImg
-pip install -r requirements.txt
-pyrcc5 -o libs/resources.py resources.qrc
+pip install VAL-LabelImgs
 ```
 
 ### With Anaconda 
