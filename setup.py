@@ -25,7 +25,7 @@ setup(
         'lxml'
     ],
     package_data={
-        'VAL_LabelImgs': ['default.yaml','coco.yaml','default_imgs.yaml','data/predefined_classes.txt'],
+        'VAL_LabelImgs': ['cfg/default.yaml','coco.yaml','default_imgs.yaml','data/predefined_classes.txt'],
         # Bao gồm file YAML trong gói
     },
     entry_points={
