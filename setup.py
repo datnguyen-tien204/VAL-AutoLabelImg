@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='VAL_LabelImgs',
-    version='0.1.6rc1',
+    version='0.1.6rc2',
     packages=find_packages(),
     install_requires=[
         'opencv-python',
