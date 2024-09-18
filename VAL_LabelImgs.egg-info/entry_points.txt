@@ -1,0 +1,2 @@
+[console_scripts]
+VAL_LabelImgs = VAL_LabelImgs.mainapp:main_app

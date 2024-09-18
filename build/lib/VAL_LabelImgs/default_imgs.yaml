@@ -1,0 +1,12 @@
+Last loaded image folder: null
+Last loaded image name: null
+Last loaded label folder: null
+check_ls: null
+classes:
+- 2
+- 5
+- 7
+conf: 0.5
+filter_conf: 0.85
+iou: 0.85
+model: models/yolov8n.pt
