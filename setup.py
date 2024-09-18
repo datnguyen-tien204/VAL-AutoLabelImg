@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='VAL_LabelImgs',
-    version='0.1.3',
+    version='0.1.4',
     packages=find_packages(),
     install_requires=[
         'opencv-python',
@@ -21,7 +21,8 @@ setup(
         'Werkzeug',
         'yolov6',
         'pycocotools',
-        'PyQt5'
+        'PyQt5',
+        'lxml'
     ],
     package_data={
         'VAL_LabelImgs': ['cfg/default.yaml','coco.yaml','default_imgs.yaml','data/predefined_classes.txt'],
