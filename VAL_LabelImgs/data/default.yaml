@@ -1,0 +1,12 @@
+Last loaded image folder: E:/VAL_LabelImgs/VAL_LabelImgs/imgs_input
+Last loaded image name: aachen_000005_000019_leftImg8bit_1_phi_3.6.png
+Last loaded label folder: E:/VAL_LabelImgs/VAL_LabelImgs/save_dir
+check_ls: null
+classes:
+- 2
+- 5
+- 7
+conf: 0.5
+filter_conf: 0.85
+iou: 0.85
+model: models/yolov8n.pt
