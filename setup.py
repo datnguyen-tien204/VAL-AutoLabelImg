@@ -25,7 +25,7 @@ setup(
         'lxml'
     ],
     package_data={
-        'VAL_LabelImgs': ['ultralytics/cfg/default.yaml','data/coco.yaml','data/default_imgs.yaml','data/predefined_classes.txt'],
+        'VAL_LabelImgs': ['ultralytics/cfg/default.yaml','data/coco.yaml','data/default_imgs.yaml','data/predefined_classes.txt','default_imgs.yaml'],
         # Bao gồm file YAML trong gói
     },
     entry_points={
