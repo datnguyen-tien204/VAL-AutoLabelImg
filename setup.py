@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='VAL_LabelImgs',
-    version='0.1.6rc0',
+    version='0.1.6rc1',
     packages=find_packages(),
     install_requires=[
         'opencv-python',
@@ -25,7 +25,7 @@ setup(
         'lxml'
     ],
     package_data={
-        'VAL_LabelImgs': ['cfg/default.yaml','coco.yaml','default_imgs.yaml','data/predefined_classes.txt'],
+        'VAL_LabelImgs': ['ultralytics/cfg/default.yaml','coco.yaml','default_imgs.yaml','data/predefined_classes.txt'],
         # Bao gồm file YAML trong gói
     },
     entry_points={
