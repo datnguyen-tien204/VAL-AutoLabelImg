@@ -238,7 +238,7 @@ class MainWindow(QMainWindow, WindowMixin):
         parameter_settings = action('parameter_settings', self.parameter_settings, None, 'edit')
         model_selection = action('model_selection', self.model_selection, None, 'edit')
         load_data = action('load_data', self.load_data, 'F5', 'file')
-        self.cfg_path = 'VAL_LabelImgs/default_imgs.yaml'
+        self.cfg_path = 'data/default_imgs.yaml'
         self.filepath, self.conf, self.iou, self.classes, self.model = None, None, None, None, None
         self.device = None if torch.cuda.is_available() else 'cpu'
         if os.path.exists(self.cfg_path):
